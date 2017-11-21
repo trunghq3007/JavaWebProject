@@ -1,0 +1,209 @@
+/*==Reset CSS==*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.254em;
+	margin: 0;
+	padding: 0;
+}
+/*==Lên khung cho website==*/
+#container {
+	padding-left: 200px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+/*==Style cho menu===*/
+#menu ul {
+	background: #1F568B;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu li {
+	color: #f1f1f1;
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+	position: relative;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#menu a:hover {
+	background: #F1F1F1;
+	color: #333;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	z-index: 101;
+}
+
+#menu li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu li {
+	margin-left: 0 !important;
+}
+
+/* ========menu doc======== */
+#menu-vertical {
+	position: fixed;
+	height: 100%;
+	background-color: #8AD385;
+	width: 200px;
+	left: 0;
+	top: 0;
+}
+
+#menu-vertical ul {
+	background: #8AD385;
+	width: 200px;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+#menu-vertical	 li {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1em;
+	position: relative;
+}
+
+#menu-vertical li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+
+#menu-vertical li:hover {
+	background: #CDE2CD;
+}
+
+/* #menu-vertical li :active {
+	background: #8080c0;
+	
+}
+
+#menu-vertical li :visited {
+	background: #ff8000;
+	
+} */
+
+/* #menu-vertical .sub-menu-vertical {
+	position: absolute;
+	left: 200px;
+	top: 0;
+	display: none;
+
+} */
+
+/* #menu-vertical li:hover .sub-menu-vertical {
+	display: block;
+} */
+#header {
+	text-align: center;
+	padding: 1em;
+	background: #adadad;
+	border-style: solid;
+	border-width: 10px;
+	border-image:
+		url(https://freetuts.net/upload/tut_post/images/2015/10/23/477/border.png)
+		10 round;
+	-webkit-border-image:
+		url(https://freetuts.net/upload/tut_post/images/2015/10/23/477/border.png)
+		10 round;
+	-moz-border-image:
+		url(https://freetuts.net/upload/tut_post/images/2015/10/23/477/border.png)
+		10 round;
+	-o-border-image:
+		url(https://freetuts.net/upload/tut_post/images/2015/10/23/477/border.png)
+		10 round;
+	border-image:
+		url(https://freetuts.net/upload/tut_post/images/2015/10/23/477/border.png)
+		10 round;
+}
+
+#slogan {
+	padding: 1em;
+	color: #004080;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	word-spacing: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#logo img {
+	height: 100px;
+	width: auto;
+}
+
+.col h2 {
+	margin-bottom: 1em;
+}
+/*==Chia cột phần content==*/
+.row {
+	overflow: auto;
+	margin: 1.5em auto;
+	padding: 1em 8em;
+}
+
+.row .col {
+	float: left;
+	width: 31.3333%;
+	margin-right: 2.99%;
+}
+
+.row .col:last-child {
+	float: right;
+	margin-right: 0;
+}
+
+p::first-line {
+	color: orange;
+}
+/* Style cho ảnh */
+.row .col img {
+	float: left;
+	margin-right: 1em;
+	width: 100px;
+	height: 100px;
+}
+/*==Footer==*/
+#footer {
+	font-size: 85%;
+	border-top: 1px solid #E6E6E6;
+	color: #838383;
+	padding: 1em 3em;
+}
