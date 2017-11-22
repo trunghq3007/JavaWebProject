@@ -1,17 +1,15 @@
 package action;
 
 /**
- * @description: 
+ * @description:
  * @author: Admin
- * @time: 10:04:37 AM
+ * @time: 5:46:25 PM
  * @date: Nov 22, 2017
- * @year: 2017
- * 
  */
 public class TestBean {
 	private String message = "No message specified";
 
-	/**
+	 /**
 	 * @description: 
 	 * @author:Admin CMC Corporation
 	 * @create date:Nov 22, 2017
@@ -24,7 +22,7 @@ public class TestBean {
 		return (message);
 	}
 
-	/**
+	 /**
 	 * @description: 
 	 * @author:Admin CMC Corporation
 	 * @create date:Nov 22, 2017
