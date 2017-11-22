@@ -27,17 +27,27 @@
 						<li><a href="form.jsp">Form</a></li>
 					</ul></li>
 				<li><a href="validateform.jsp">Java Script</a>
-				<li><a href="jquery.jsp">JQuerry</a>
-				<li><a href="#">Servlet & JSP</a></li>
-
-				<li><a href="#">MVC & JSP Models</a></li>
-				<li><a href="#">Struts 2.0</a>
+				<li><a href="jquery.jsp">JQuerry</a></li>
+				<li><a href="learnJSP.jsp">JSP</a>
+					<ul class="sub-menu">
+						<li><a href="#">JSP Directive</a></li>
+						<li><a href="#">JSP Action</a></li>
+						<li><a href="#">JSP Implicit Objects</a></li>
+						<li><a href="#">JSP Client Request</a></li>
+						<li><a href="#">JSP Server Response</a></li>
+						<li><a href="#">JSP Form Processing</a></li>
+					</ul></li>
+				</li>
+				<li><a href="#">Servlet</a>
 					<ul class="sub-menu">
 						<li><a href="#">Item 1</a></li>
 						<li><a href="#">Item 2</a></li>
 						<li><a href="#">Item 3</a></li>
 					</ul></li>
-				<li><a href="#">Unit Testing</a></li>
+				<li><a href="#">Spring</a>
+				<li><a href="#">Hibernate</a> <!-- <li><a href="#">MVC & JSP Models</a></li> -->
+
+					<!-- <li><a href="#">Unit Testing</a></li> -->
 			</ul>
 		</div>
 		<!--END #menu-->
