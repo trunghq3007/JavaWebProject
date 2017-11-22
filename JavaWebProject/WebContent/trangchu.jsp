@@ -31,7 +31,7 @@
 				<li><a href="learnJSP.jsp">JSP</a>
 					<ul class="sub-menu">
 						<li><a href="#">JSP Directive</a></li>
-						<li><a href="#">JSP Action</a></li>
+						<li><a href="actionJSP.jsp">JSP Action</a></li>
 						<li><a href="#">JSP Implicit Objects</a></li>
 						<li><a href="#">JSP Client Request</a></li>
 						<li><a href="#">JSP Server Response</a></li>
