@@ -32,10 +32,9 @@
 					<ul class="sub-menu">
 						<li><a href="#">JSP Directive</a></li>
 						<li><a href="actionJSP.jsp">JSP Action</a></li>
-						<li><a href="#">JSP Implicit Objects</a></li>
-						<li><a href="#">JSP Client Request</a></li>
-						<li><a href="#">JSP Server Response</a></li>
-						<li><a href="#">JSP Form Processing</a></li>
+						<li><a href="implicitObject.jsp">JSP Implicit Objects</a></li>
+						<li><a href="formProcessingJSP.jsp">JSP Form Processing</a></li>
+						<li><a href="learnSessionJSP.jsp">JSP Session</a></li>
 					</ul></li>
 				</li>
 				<li><a href="#">Servlet</a>
